@@ -30,6 +30,7 @@ when (Random.nextInt(1..4)) {
             "$message?"
         }
     }
+
     else -> {
         mood = "professional"
         modifier = {message ->
